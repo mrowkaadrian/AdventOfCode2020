@@ -22,7 +22,7 @@ def validate2(a, b, letter, password):
     return False
 
 
-# Part 1
+# ---- PART ONE ----
 
 answer = 0
 lines = open('input.txt', 'r').readlines()
@@ -33,7 +33,7 @@ for line in lines:
 
 print ("Answer1: ", answer)
 
-# Part 2
+# ---- PART TWO ----
 
 answer = 0
 
